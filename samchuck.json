@@ -1,0 +1,40 @@
+
+{
+	url:"http://dormitory.kangwon.ac.kr/dorm/2016/sub02_06.jsp",
+	unjang: {
+		weekday:{
+			breakfast: , 
+			lunch: ,
+			dinner
+		},
+		weekend:{
+			breakfast: , 
+			lunch: ,
+			dinner
+		}
+	},
+	doota: {
+		weekday:{
+			breakfast: , 
+			lunch: ,
+			dinner
+		},
+		weekend:{
+			breakfast: , 
+			lunch: ,
+			dinner
+		}
+	},
+	heasol: {
+		weekday:{
+			breakfast: , 
+			lunch: ,
+			dinner
+		},
+		weekend:{
+			breakfast: , 
+			lunch: ,
+			dinner
+		}
+	}
+}

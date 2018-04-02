@@ -1,0 +1,29 @@
+
+{ 
+	url:"http://knudorm.kangwon.ac.kr/home/sub02/sub02_05_bj.jsp",
+	public: {
+		weekday:{
+			breakfast: 'seletor !! ' , 
+			lunch:  ,
+			dinner
+		},
+		weekend:{
+			breakfast: , 
+			lunch: ,
+			dinner
+		}
+	},
+
+	btl: {
+		weekday:{
+			breakfast: "7:30-9:00", 
+			lunch: ,
+			dinner
+		},
+		weekend:{
+			breakfast: , 
+			lunch: ,
+			dinner
+		}
+	}
+}

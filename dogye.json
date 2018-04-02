@@ -1,0 +1,52 @@
+
+{ 
+	url:"http://dorm.kangwon.ac.kr/new/board/bbs/content.php?co_id=2_7_1",
+	gaon: {
+		weekday:{
+			breakfast: , 
+			lunch: ,
+			dinner
+		},
+		weekend:{
+			breakfast: , 
+			lunch: ,
+			dinner
+		}
+	},
+	dowon: {
+		weekday:{
+			breakfast: , 
+			lunch: ,
+			dinner
+		},
+		weekend:{
+			breakfast: , 
+			lunch: ,
+			dinner
+		}
+	},
+	hwangjo: {
+		weekday:{
+			breakfast: , 
+			lunch: ,
+			dinner
+		},
+		weekend:{
+			breakfast: , 
+			lunch: ,
+			dinner
+		}
+	},
+	student:{
+		weekday:{
+			breakfast: , 
+			lunch: ,
+			dinner
+		},
+		weekend:{
+			breakfast: , 
+			lunch: ,
+			dinner
+		}
+	}
+}
