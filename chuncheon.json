@@ -1,29 +1,33 @@
 
 { 
-	url:"http://knudorm.kangwon.ac.kr/home/sub02/sub02_05_bj.jsp",
+	menu_url:"http://knudorm.kangwon.ac.kr/home/sub02/sub02_05_bj.jsp",
+	time_url:"http://knudorm.kangwon.ac.kr/home/sub02/sub02_05_bj.jsp",
+
 	public: {
+		menu : 			"table,1",
 		weekday:{
-			breakfast: 'seletor !! ' , 
-			lunch:  ,
-			dinner
+			breakfast: 	"table,0 > tr,0 > td,1", 
+			lunch:  	"table,0 > tr,0 > td,2",
+			dinner:		"table,0 > tr,0 > td,3"
 		},
 		weekend:{
-			breakfast: , 
-			lunch: ,
-			dinner
+			breakfast: 	"table,0 > tr,1 > td,1" , 
+			lunch:		"table,0 > tr,1 > td,2" ,
+			dinner:		"table,0 > tr,1 > td,3"
 		}
 	},
 
 	btl: {
+		menu : 			"table,3",
 		weekday:{
-			breakfast: "7:30-9:00", 
-			lunch: ,
-			dinner
+			breakfast: 	"table,0 > tr,0 > td,1", 
+			lunch:  	"table,0 > tr,0 > td,2",
+			dinner:		"table,0 > tr,0 > td,3"
 		},
 		weekend:{
-			breakfast: , 
-			lunch: ,
-			dinner
+			breakfast: 	"table,0 > tr,1 > td,1" , 
+			lunch:		"table,0 > tr,1 > td,2" ,
+			dinner:		"table,0 > tr,1 > td,3"
 		}
 	}
 }

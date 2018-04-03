@@ -1,52 +1,58 @@
 
 { 
-	url:"http://dorm.kangwon.ac.kr/new/board/bbs/content.php?co_id=2_7_1",
+	menu_url:"http://dorm.kangwon.ac.kr/dorm/sub/dogye.jsp?sikdang_cd=3",
+	time_url:"http://dorm.kangwon.ac.kr/new/board/bbs/content.php?co_id=2_7_1",
+
 	gaon: {
+		menu : 			"table,3",
 		weekday:{
-			breakfast: , 
-			lunch: ,
-			dinner
+			breakfast: 	"table,0 > tr,1 > td,1 > br,0", 
+			lunch: 		"table,0 > tr,2 > td,1 ",
+			dinner:		"table,0 > tr,3 > td,1 "
 		},
 		weekend:{
-			breakfast: , 
-			lunch: ,
-			dinner
+			breakfast: 	"table,0 > tr,1 > td,1 > br,1", 
+			lunch: 		"table,0 > tr,2 > td,1 ",
+			dinner:		"table,0 > tr,3 > td,1 "
 		}
 	},
 	dowon: {
+		menu : 			"table,3",
 		weekday:{
-			breakfast: , 
-			lunch: ,
-			dinner
+			breakfast: 	"table,0 > tr,1 > td,2 > br,0", 
+			lunch: 		"table,0 > tr,2 > td,2 ",
+			dinner:		"table,0 > tr,3 > td,2 "
 		},
 		weekend:{
-			breakfast: , 
-			lunch: ,
-			dinner
+			breakfast: 	"table,0 > tr,1 > td,2 > br,1", 
+			lunch: 		"table,0 > tr,2 > td,2 ",
+			dinner:		"table,0 > tr,3 > td,2 "
 		}
 	},
 	hwangjo: {
+		menu : 			"table,3",
 		weekday:{
-			breakfast: , 
-			lunch: ,
-			dinner
+			breakfast: 	"table,0 > tr,1 > td,3 > br,0", 
+			lunch: 		"table,0 > tr,2 > td,3 > br,0",
+			dinner:		"table,0 > tr,3 > td,3 "
 		},
 		weekend:{
-			breakfast: , 
-			lunch: ,
-			dinner
+			breakfast: 	"table,0 > tr,1 > td,3 > br,1", 
+			lunch: 		"table,0 > tr,2 > td,3 > br,1",
+			dinner:		"table,0 > tr,3 > td,3 "
 		}
 	},
 	student:{
+		menu : 			"table,3",
 		weekday:{
-			breakfast: , 
-			lunch: ,
-			dinner
+			breakfast: 	"table,0 > tr,1 > td,4", 
+			lunch: 		"table,0 > tr,2 > td,4",
+			dinner:		"table,0 > tr,3 > td,4"
 		},
 		weekend:{
-			breakfast: , 
-			lunch: ,
-			dinner
+			breakfast: 	"table,0 > tr,1 > td,4", 
+			lunch: 		"table,0 > tr,2 > td,4",
+			dinner:		"table,0 > tr,3 > td,4"
 		}
 	}
 }

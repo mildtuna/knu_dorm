@@ -1,40 +1,45 @@
 
 {
-	url:"http://dormitory.kangwon.ac.kr/dorm/2016/sub02_06.jsp",
+	menu_url :	"http://dormitory.kangwon.ac.kr/dorm/2016/sub02_06.jsp",
+	time_url:	"http://dormitory.kangwon.ac.kr/dorm/2016/sub02_06.jsp",
+
 	unjang: {
+		menu:			"table,3",
 		weekday:{
-			breakfast: , 
-			lunch: ,
-			dinner
+			breakfast: 	"table,4 > tr,1 > td,1", 
+			lunch: 		"table,4 > tr,2 > td,1",
+			dinner:		"table,4 > tr,3 > td,1"
 		},
 		weekend:{
-			breakfast: , 
-			lunch: ,
-			dinner
+			breakfast: 	"table,5 > tr,1 > td,1", 
+			lunch: 		"table,5 > tr,2 > td,1",
+			dinner:		"table,5 > tr,3 > td,1"
 		}
 	},
 	doota: {
+		menu:			"table,3",
 		weekday:{
-			breakfast: , 
-			lunch: ,
-			dinner
+			breakfast: 	"table,4 > tr,1 > td,2", 
+			lunch: 		"table,4 > tr,2 > td,2",
+			dinner:		"table,4 > tr,3 > td,2"
 		},
 		weekend:{
-			breakfast: , 
-			lunch: ,
-			dinner
+			breakfast: 	"table,5 > tr,1 > td,2", 
+			lunch: 		"table,5 > tr,2 > td,2",
+			dinner:		"table,5 > tr,3 > td,2"
 		}
 	},
 	heasol: {
+		menu:			"table,3",
 		weekday:{
-			breakfast: , 
-			lunch: ,
-			dinner
+			breakfast: 	"table,4 > tr,1 > td,2", 
+			lunch: 		"table,4 > tr,2 > td,2",
+			dinner:		"table,4 > tr,3 > td,2"
 		},
 		weekend:{
-			breakfast: , 
-			lunch: ,
-			dinner
+			breakfast: 	"table,5 > tr,1 > td,2", 
+			lunch: 		"table,5 > tr,2 > td,2",
+			dinner:		"table,5 > tr,3 > td,2"
 		}
 	}
 }
